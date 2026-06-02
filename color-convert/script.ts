@@ -34,7 +34,6 @@ const hexStringToRGB = (_hex: string) => {
 
     if (hex.length > 7) {
         const [a, b] = [hexadecimalValueMap[hex[7]], hexadecimalValueMap[hex[8]]];
-        console.log(a,b)
         const val = (a * 16 + b)
         const percent = (val / 255).toFixed(5)
         return `rbg(${values.join(' ')} / ${percent})`
