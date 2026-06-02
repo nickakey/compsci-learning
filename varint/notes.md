@@ -2,7 +2,7 @@
 
 ## 1: Recap on bytes and bits
 
-So 1.uint64 represents the number "1" encoded in 64 bit (8 byte)
+So 1.uint64 represents the number "1" encoded in 64 bits (8 byte)
 
 As a reminder, a bit a single binary entry 
 
